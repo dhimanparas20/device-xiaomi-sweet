@@ -1,0 +1,1 @@
+require version-firmware=12.5.9.0
