@@ -16,6 +16,10 @@ TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_sweet
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_sweet
+
 # Kernel
 TARGET_KERNEL_CONFIG := sweet_defconfig
 
