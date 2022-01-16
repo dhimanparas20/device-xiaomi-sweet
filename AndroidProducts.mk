@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The blissOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet.mk
+    $(LOCAL_DIR)/bliss_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sweet-userdebug \
-    lineage_sweet-user \
-    lineage_sweet-eng 
+    bliss_sweet-userdebug \
+    bliss_sweet-user \
+    bliss_sweet-eng 

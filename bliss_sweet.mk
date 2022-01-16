@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The blissOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common blissOS stuff
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
@@ -29,6 +29,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 
+# Official
+BLISS_BUILDTYPE := OFFICIAL
+
 # Inherit some common PixelExperience stuff
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
@@ -37,7 +40,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_sweet
+PRODUCT_NAME := bliss_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
