@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sweet.mk
+    $(LOCAL_DIR)/havoc_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sweet-userdebug \
-    aosp_sweet-user \
-    aosp_sweet-eng 
+    havoc_sweet-userdebug \
+    havoc_sweet-user \
+    havoc_sweet-eng 
